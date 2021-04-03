@@ -10,7 +10,11 @@ documentation = "https://docs.rs/solana-merkle-tree"
 edition = "2018"
 
 [dependencies]
+<<<<<<< HEAD
 solana-sdk = { path = "../sdk", version = "=1.6.3" }
+=======
+solana-program = { path = "../sdk/program", version = "=1.7.0" }
+>>>>>>> ddc0a16ce... merkle-tree: Get `Hash` et. al from program instead of sdk
 fast-math = "0.1"
 
 [dev-dependencies]
